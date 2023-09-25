@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+}
+header {
+    color: #ff2929;
+    font-family: "Lucida Console";
+    padding: 30px;
+    background-color: #282828;
+    text-align: left;
+}
+header img {
+    width: 5%;
+    height: 5%;
+}
+body {
+    background-image: linear-gradient(to right, #ec90d8, #bb98e5, #928dfd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+.topnav {
+    background-color: #1c1c1c;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #a6a6a6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Lucida Console";
+}
+.topnav a:hover{
+    background-color: #7c0000;
+    color: #480000;
+}
+.topnav a.active{
+    background-color: #ff2929;
+    color: darkred;
+}
+.topnav .icon{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-family: "Lucida Console";
+    color: white;
+}
+p{
+    color: white;
+    font-family: "Lucida Console";
+    padding: 5% 10%;
+    text-align: left;
+    margin-right: 55%;
+    line-height: 30px;
+}
+img{
+    margin-left: 70%;
+    margin-right: 20%;
+}
+iframe{
+    padding: 20%;
+}
